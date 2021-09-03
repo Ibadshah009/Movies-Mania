@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+  list-style: none;
+  float: left;
+}
+a{
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  border:1px solid rgba(0,0,0,0.04);
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.logo img{
+  height: 35px;
+}
+nav .menu{
+  display: flex;
+}
+nav .menu li a{
+  height: 40px;
+  line-height: 43px;
+  margin: 0px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color:#585858;
+  letter-spacing: 1px;
+}
+.search{
+  width:250px;
+  height: 40px;
+  background-color: rgba(245,245,245,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+.search input{
+  width:100%;
+  height: 30px;
+  border:none;
+  outline: none;
+  background-color: transparent;
+}
+
+li a:hover{
+background: burlywood;
+}
+
+.GodvsKong{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: burlywood;
+    color: #ffffff;
+  }
+  .GodvsKongBRRIP{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: burlywood;
+    color: #ffffff;
+  }
+  
+  .godvskongp{
+    width: 250px;
+    height: 400px;
+}
+
+.godzillavskong{
+  margin-top: 6px;
+    float: left;
+    text-align: justify;
+    border: 1px solid burlywood;
+}
+
+
+.details{
+  align-items: left;
+  float: left;
+}
+
+
+
+.film-heading{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.film-description{
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  text-align: center;
+
+}
+
+.film-trailer{
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: burlywood;
+  color: #ffffff;
+}
+
+.related-heading{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.r-movies{
+  float: left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+height: 250px;
+width: 250px;
+}
+
+
+.video-live{
+  margin-top: 50px;
+}
+
+.live-watch{
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: burlywood;
+  color: #ffffff;
+}
